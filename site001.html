@@ -4,12 +4,28 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Sample site 001</title>
+        <style>
+            .nav-item {
+                list-style: none;
+                display: inline-block;
+                float: none;
+            }
+            .nav-link {
+                text-decoration: none;
+            }
+        </style>
     </head>
     <body>
         <header>
             <nav>
-                <a>Menu item 1</a>
-                <a>Menu item 2</a>
+                <ul>
+                    <li class="nav-item">
+                        <a href="item1" class="nav-link">Menu item 1</a>
+                    </li>
+                    <li class="nav-item">
+            	        <a href="item2" class="nav-link">Menu item 2</a>
+            	    </li>
+            	</ul>
             </nav>
         </header>
     </body>
